@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=2018.3
+Type=Application
+Name=Xilinx SDK
+Exec=sh -c "unset LANG && unset QT_PLUGIN_PATH && source /tools/Xilinx/SDK/2018.3/settings64.sh && xsdk"
+Icon=/tools/Xilinx/SDK/2018.3/data/sdk/images/sdk_logo.png
+Categories=Development;
+Comment=Xilinx Software Development Kit

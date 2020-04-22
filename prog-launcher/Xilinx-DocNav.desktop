@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Xilinx Documentation Navigator 
+Exec=sh -c "/tools/Xilinx/DocNav/docnav"
+Icon=/tools/Xilinx/DocNav/resources/doc_nav_application_48.png
+Categories=Development;
+Comment=Xilinx Documentation Navigator
