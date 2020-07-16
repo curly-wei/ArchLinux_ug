@@ -1,8 +1,10 @@
-"on the ~/.vimrc
+on the ~/.vimrc file
 
+```.vimrc
 set nu "linenumber                                                                                                                             
 set cursorline "add button line on cursor
 set tabstop=2 "tab size
 set shiftwidth=2 "indent size
 set ai "auto indent
 syntax on "syntax coloring
+```
