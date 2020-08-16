@@ -4,6 +4,16 @@
 
 * git bash
 * Windows terminal (Windows store)
+* Consolas font
+* wget (for download icon)
+  * [Go here](https://eternallybored.org/misc/wget/) to download `64bits .exe` files
+  * move `wget.exe` to `C:\\Windows\\system32\\wget.exe`
+* icon for Windows terminal
+``` bash
+wget.exe https://github.com/microsoft/terminal/blob/master/res/terminal.ico -P ~/AppData\\Local\\Microsoft\\WindowsApps
+# or 
+# wget.exe https://github.com/microsoft/terminal/blob/master/res/terminal.ico -O ~/AppData\\Local\\Microsoft\\WindowsApps/terminal.ico
+```
 
 ## 1. Append setting to setting file for Windows terminal
 
@@ -223,10 +233,14 @@ Windows Registry Editor Version 5.00
 
 Add:
 [HKEY_CLASSES_ROOT\Directory\Background\shell\wt]
+<Key>
 Default -> Terminal here
+<string>
+icon -> C:\Users\{YOUR_WINDOWS_USERNAME}\AppData\Local\Microsoft\WindowsApps\win-terminal.ico
 
 Add
 [HKEY_CLASSES_ROOT\Directory\Background\shell\wt\command]
+<Key>
 Default -> "C:\\Users\\{YOUR_WINDOWS_USERNAME}\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe" "-d ."
 ```
 
