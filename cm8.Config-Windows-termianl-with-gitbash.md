@@ -7,6 +7,7 @@
 * Consolas font
 * wget (for download icon)
   * [Go here](https://eternallybored.org/misc/wget/) to download `64bits .exe` files
+  * Or install with `choco install wget`
   * move `wget.exe` to `C:\\Windows\\system32\\wget.exe`
 * icon for Windows terminal
 ``` bash
