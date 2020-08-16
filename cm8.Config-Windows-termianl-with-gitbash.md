@@ -34,7 +34,7 @@ Append
 								"colorScheme" : "GitBash",
 								"commandline" : "\"%PROGRAMFILES%\\Git\\usr\\bin\\bash.exe\" --login -i -l",
 								"cursorColor" : "#FFFFFF",
-								"cursorShape" : "bar",
+								"cursorShape" : "filledBox",
 								"fontFace" : "Consolas",
 								"fontSize" : 12,
 								"historySize" : 9001,
