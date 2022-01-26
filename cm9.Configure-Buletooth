@@ -32,3 +32,5 @@ open `buletooth manager gui`
 2. search your device
 3. connect your device
 4. open YT to test
+
+**If u not using bluetooth device mow, please disable buletooth-manager**
