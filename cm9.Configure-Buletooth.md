@@ -33,4 +33,4 @@ open `buletooth manager gui`
 3. connect your device
 4. open YT to test
 
-**If u not using bluetooth device mow, please disable buletooth-manager**
+**If u are not using bluetooth device mow, please "disable" buletooth-manager**
