@@ -17,6 +17,11 @@ Note:
 
 **`Please do no use Windows font Manager`**
 
+### 1-2. Install
+```bash
+pacman -S texlive-meta texlive-lang texlive-langchinese texlive-langjapanese 
+```
+
 ## 2. Paste following setting append "settings.json" in vscde
 
 ```text
